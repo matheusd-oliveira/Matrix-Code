@@ -21,7 +21,7 @@ height = 720
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Matrix')
 
-# Creating Letters: I choiced the bushidô samurai code for show in my screen.
+# Creating Letters:
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 1, 2, 3, 4, 5, 6]
 
 # Writing a message on screen
