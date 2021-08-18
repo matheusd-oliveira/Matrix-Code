@@ -6,7 +6,7 @@ from random import randrange, choice
 
 pygame.init()
 
-# Creating colours
+# Creating colours:
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
@@ -15,7 +15,7 @@ BLUE = (0, 0, 255)
 COLORS = [GREEN, RED, BLUE]
 color_change = 0
 FONT_SIZE = 10
-# Creating a Screen
+# Creating a Screen:
 width = 1028
 height = 720
 screen = pygame.display.set_mode((width, height))
@@ -24,7 +24,7 @@ pygame.display.set_caption('Matrix')
 # Creating Letters:
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 1, 2, 3, 4, 5, 6]
 
-# Writing a message on screen
+# Writing a message on screen:
 font = pygame.font.SysFont('arial', FONT_SIZE, True, True)
 '''message = 'hello world'
 text = font.render(message, True, GREEN)'''
@@ -33,7 +33,7 @@ text = font.render(message, True, GREEN)'''
 sound = pygame.mixer.music.load('_Trinity Infinity_160k.mp3')
 pygame.mixer.music.play(-1)
 
-# Setting the FPS
+# Setting the FPS:
 clock = pygame.time.Clock()
 FPS = 10
 
